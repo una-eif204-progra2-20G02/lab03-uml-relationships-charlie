@@ -1,5 +1,5 @@
 
-
+#ifndef 
 
 #include <string>
 #include <ostream>
