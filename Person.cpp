@@ -7,7 +7,7 @@ Person::Person(){
   name= "";
   
 }
-Person::Person(string n){
+Person::Person(std::string n){
   name=n;
  
 }
@@ -15,7 +15,7 @@ Person::~Person(){
 
 }
 
-string Person::getFirstName(){
+std::string Person::getFirstName(){
 return name;
 
 }
@@ -24,7 +24,7 @@ name=nom;
 
 }
 
-string Person::toString()const{
+std::string Person::toString()const{
 stringstream s;
 
 s<<"Nombre: "<<name<<"\n";

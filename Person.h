@@ -1,5 +1,5 @@
 
-#ifndef 
+//#ifndef  Consulta
 
 #include <string>
 #include <ostream>
@@ -8,13 +8,11 @@
 
 class Person {
 private:
-string name;
-
-
+std::string name;
 
 public:
 Person();
-Person(string name);
+Person(std::string name);
 virtual~Person();    
-string getFirstName();
-void setFirstName(string);
+std::string getFirstName();
+void setFirstName(std::string name);

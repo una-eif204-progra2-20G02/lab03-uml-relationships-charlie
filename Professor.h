@@ -1,13 +1,12 @@
 
 #include "Person.h"
+#include "Title.h"
 
 
 class Professor: Person {
-private: 
-double monthlySalary;
-double commissionRate;
-
+private:
+Title tit;
 public:
 Professor();
-Professor(double, double, string , string, int);
+Professor( std::string name,std::string nameTit,std::string grade);
 virtual ~Professor();
