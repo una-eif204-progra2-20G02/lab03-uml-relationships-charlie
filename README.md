@@ -32,4 +32,4 @@ The student will choose only one topic of the list below:
 
 ## UML
 
-MicrosoftTeams-image.png
+![](MicrosoftTeams-image.png)
