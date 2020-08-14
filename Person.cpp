@@ -24,11 +24,3 @@ name=nom;
 
 }
 
-std::string Person::toString()const{
-stringstream s;
-
-s<<"Nombre: "<<name<<"\n";
-
-return s.str();
-
-}
