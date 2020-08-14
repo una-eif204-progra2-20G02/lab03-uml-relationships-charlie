@@ -30,4 +30,4 @@ The student will choose only one topic of the list below:
 - Transportation
 - Health
 
-https://us-api.asm.skype.com/v1/objects/0-eus-d5-7667de23d6c1036b6efb97df771558c0/views/imgo
+
