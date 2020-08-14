@@ -1,7 +1,7 @@
 
 
 #include "Person.h"
-using namespace std;
+
 
 Person::Person(){
   name= "";

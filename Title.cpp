@@ -24,7 +24,7 @@ std::string Title::toString(){
   stringstream s;
 
   s<<"Title: "<<title<<endl
-  <<"Grade: "<<grade<<endl;
+   <<"Grade: "<<grade<<endl;
 
   return s.str();
 }

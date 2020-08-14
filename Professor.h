@@ -5,8 +5,9 @@
 
 class Professor: Person {
 private:
-Title tit;
+Title* tit;
 public:
 Professor();
 Professor( std::string name,std::string nameTit,std::string grade);
 virtual ~Professor();
+std::string toString();

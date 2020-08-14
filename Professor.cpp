@@ -6,4 +6,12 @@ Professor::Professor( std::string name, std::string nameTit,std::string grade): 
 
 virtual ~Professor();
 
+std::string Professor::toString(){
+
+  stringstream s;
+  s<<Person::toString();
+  s<<Title->toString(); 
+
+  return s.str();
+}
 

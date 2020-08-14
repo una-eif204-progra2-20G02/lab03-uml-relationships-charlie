@@ -16,3 +16,4 @@ Person(std::string name);
 virtual~Person();    
 std::string getFirstName();
 void setFirstName(std::string name);
+std::string toString();
