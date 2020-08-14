@@ -18,3 +18,13 @@ std::string Title::getGrade(){
 void Title::setGrade(std::string gra){
   grade = gra;
 }
+
+std::string Title::toString(){
+
+  stringstream s;
+
+  s<<"Title: "<<title<<endl
+  <<"Grade: "<<grade<<endl;
+
+  return s.str();
+}
