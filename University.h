@@ -1,9 +1,9 @@
 #include "Professor.h"
-
+ 
 
 class University {
 
-string nombre;
+std::string nombre;
 Professor* profe;
 //std::vector<Professor*> professorList;
   public:

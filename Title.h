@@ -5,7 +5,7 @@
 
 class Title{
 private:
-std::string name;
+std::string nombre;
 std::string grade;
 public:
 Title();
